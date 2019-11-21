@@ -4,6 +4,7 @@ require './lib/event'
 print "Enter the year for the games: "
 input = gets.chomp
 games = Games.new(input.to_i)
+input = ''
 
 while (input != "q")
   puts "------------------------------------------"
