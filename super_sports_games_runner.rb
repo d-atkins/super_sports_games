@@ -7,7 +7,8 @@ games = Games.new(input.to_i)
 input = ''
 
 while (input != "q")
-  puts "------------------------------------------"
+  print "------------------------------------------"
+  puts "-------------------------------------------"
   puts ">[A]dd event      >[S]ummary      >[Q]uit"
   input = gets.chomp.downcase
   if input == "a"
