@@ -12,6 +12,9 @@ while (input != "q")
   if input == "a"
     print "Enter name of event: "
     event = gets.chomp
+    if event.length > 13
+      event = event[0,11].strip + "..."
+    end
     ages = []
     input = ''
     while (input != "q")
